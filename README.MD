@@ -18,4 +18,8 @@ these factors with popular Pseudorandom Algorithms to find the best algorithm we
 Using the time subtracted by an arbitrary value n has worked well for finding a
 Psuedorandom seed value for the Marsenne Twister Algo. Finding the seed is one of the
 keys to unlocking a more random generator that can be used as random data to plug-in to
-other random algorithms such as WELLRNG512a
+other random algorithms such as WELLRNG512a.
+
+### Inspiration
+This project and the implementation of the Marsenne Twister Algorithm was provided by
+yinengy on GitHub.
