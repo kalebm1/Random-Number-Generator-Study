@@ -11,6 +11,7 @@ these factors with popular Pseudorandom Algorithms to find the best algorithm we
 - [x] Users Time
 - [ ] Users amount of space on computer
 - [ ] Users battery life
+- [x] Users' System Memory Value (GB)
 - [ ] MANY MORE TO COME.
 
 ### Time
@@ -23,3 +24,23 @@ other random algorithms such as WELLRNG512a.
 ### Inspiration
 This project and the implementation of the Marsenne Twister Algorithm was provided by
 yinengy on GitHub.
+
+
+## V1.0 Inclusion and Implementation
+
+Current implementation includes a Marsenne twister by calling class Random() which is seeded
+by the users' time multiplied by the amount of memory their system has. This causes a different
+seed number everytime it is ran even at the same exact time on different machines.
+
+`python
+>>rand = new Random()
+>>rand.random() or rand.randint()
+`
+We also have have WELLRNG512a implemented using random data for the initial array
+from the new random algo from the Marsenne Twister.
+`python
+>>rand = new WellsRandom()
+>>rand.InitWELLRNG512a()
+>>rand.WELLRNG512a()
+`
+
