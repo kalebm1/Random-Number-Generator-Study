@@ -32,15 +32,15 @@ Current implementation includes a Marsenne twister by calling class Random() whi
 by the users' time multiplied by the amount of memory their system has. This causes a different
 seed number everytime it is ran even at the same exact time on different machines.
 
-`python
+```python
 >>rand = new Random()
 >>rand.random() or rand.randint()
-`
+````
 We also have have WELLRNG512a implemented using random data for the initial array
 from the new random algo from the Marsenne Twister.
-`python
+```python
 >>rand = new WellsRandom()
 >>rand.InitWELLRNG512a()
 >>rand.WELLRNG512a()
-`
+```
 
