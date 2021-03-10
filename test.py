@@ -1,3 +1,6 @@
+'''This File is used for testing Randomness in the algorithms
+   and for plotting the findings of those tests.'''
+
 from RandomMarsenne import Random
 from RandomWells import WellsRandom
 import matplotlib.pyplot as plt   
