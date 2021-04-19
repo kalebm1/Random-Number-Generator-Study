@@ -3,6 +3,7 @@
 
 from RandomMarsenne import Random
 from RandomWells import WellsRandom
+from RandomBBS import RandomBBS
 import matplotlib.pyplot as plt   
 from collections import Counter
 from PIL import Image
@@ -14,31 +15,31 @@ import random
 test = Random()
 
 
-num_trials = 10**7
+# num_trials = 10**7
 
-s = [test.randint(0,1001) for n in range(num_trials)]  
-y = [s.count(n) for n in range(1000)]
+# s = [test.randint(0,1001) for n in range(num_trials)]  
+# y = [s.count(n) for n in range(1000)]
 
-# your code here
-plt.bar(range(1000),y, width=1.0, edgecolor='black')
-plt.title('My MT algorithm')
-plt.ylabel("Times of show up")
-plt.xlabel('Outcome')
-plt.show()
+# # your code here
+# plt.bar(range(1000),y, width=1.0, edgecolor='black')
+# plt.title('My MT algorithm')
+# plt.ylabel("Times of show up")
+# plt.xlabel('Outcome')
+# plt.show()
 
 
 
-num_trials = 10**7
-random.seed()
-s = [random.randint(0,1000) for n in range(num_trials)]  
-y = [s.count(n) for n in range(1000)]
+# num_trials = 10**7
+# random.seed()
+# s = [random.randint(0,1000) for n in range(num_trials)]  
+# y = [s.count(n) for n in range(1000)]
 
-# your code here
-plt.bar(range(1000),y, width=1.0, edgecolor='black')
-plt.title('Python buit-in Random')
-plt.ylabel("Times of show up")
-plt.xlabel('Outcome')
-plt.show()
+# # your code here
+# plt.bar(range(1000),y, width=1.0, edgecolor='black')
+# plt.title('Python buit-in Random')
+# plt.ylabel("Times of show up")
+# plt.xlabel('Outcome')
+# plt.show()
 
 
 """THIS IS THE CODE FOR THE IMAGE"""
@@ -68,3 +69,9 @@ plt.show()
 # print(rand.randint(0,600))
 # print(rand.randint(0,600))
 # print(rand.randint(0,600))
+
+# tester = RandomBBS(19,23,6)
+# print(tester.getRandNumber())
+# print(tester.getRandNumber())
+# print(tester.getRandNumber())
+# print(tester.getRandNumber())
