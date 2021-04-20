@@ -22,9 +22,9 @@ keys to unlocking a more random generator that can be used as random data to plu
 other random algorithms such as WELLRNG512a.
 
 ### Inspiration
+
 This project and the implementation of the Marsenne Twister Algorithm was provided by
 yinengy on GitHub.
-
 
 ## V1.0 Inclusion and Implementation
 
@@ -33,14 +33,41 @@ by the users' time multiplied by the amount of memory their system has. This cau
 seed number everytime it is ran even at the same exact time on different machines.
 
 ```python
->>rand = new Random()
+>>rand = Random()
 >>rand.random() or rand.randint()
-````
+```
+
 We also have have WELLRNG512a implemented using random data for the initial array
 from the new random algo from the Marsenne Twister.
+
 ```python
->>rand = new WellsRandom()
+>>rand = WellsRandom()
 >>rand.InitWELLRNG512a()
 >>rand.WELLRNG512a()
 ```
 
+Recently implemented was the Blum Blum Shub Algorithm which can be used as follows:
+
+```python
+>>test = RandomBBS() OR RandomBBS(p,q,s)
+#p and q are prime numbers and s being a seed
+>>test.getRandBit()#returns a random bit(0 or 1)
+>>test.setP()#set the p value(int)
+>>test.setQ()#set the q value(int)
+>>test.setSeed()#set the seed value(int)
+>>test.getRandNumber()#returns random int
+```
+
+We have also included the Blum-Micali algorithm with a few helpful
+methods which are laid out as follows:
+
+```python
+>>test = RandomBM()
+>>test.getRandBits(n)#returns a random string of bits of length n
+>>test.setSeed()#set the seed value(int)
+>>test.binaryToDecimal()#takes a string binary representation and converts it to decimal(string)
+>>test.getRandNumber()#returns a random int
+>>test.getRandSetNum(a)#returns a random int between 0-a(int)
+```
+
+More algorithms to come. Enjoy!
