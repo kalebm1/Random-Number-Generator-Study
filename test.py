@@ -1,10 +1,10 @@
 '''This File is used for testing Randomness in the algorithms
    and for plotting the findings of those tests.'''
 
-from RandomMarsenne import Random
-from RandomWells import WellsRandom
-from RandomBBS import RandomBBS
-from RandomBMAlgo import RandomBM
+from Algorithms.RandomMarsenne import Random
+from Algorithms.RandomWells import WellsRandom
+from Algorithms.RandomBBS import RandomBBS
+from Algorithms.RandomBMAlgo import RandomBM
 import matplotlib.pyplot as plt   
 from collections import Counter
 from PIL import Image
