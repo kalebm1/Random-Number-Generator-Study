@@ -4,6 +4,7 @@
 from RandomMarsenne import Random
 from RandomWells import WellsRandom
 from RandomBBS import RandomBBS
+from RandomBMAlgo import RandomBM
 import matplotlib.pyplot as plt   
 from collections import Counter
 from PIL import Image
@@ -70,8 +71,15 @@ test = Random()
 # print(rand.randint(0,600))
 # print(rand.randint(0,600))
 
+
+"""Code To Test Blum-Blum Shub"""
 # tester = RandomBBS(19,23,6)
-# print(tester.getRandNumber())
-# print(tester.getRandNumber())
-# print(tester.getRandNumber())
-# print(tester.getRandNumber())
+# print(tester.getRandBit())
+# print(tester.getRandBit())
+# print(tester.getRandBit())
+# print(tester.getRandBit())
+
+"""Code to test the Blum-Micali"""
+
+# tester = RandomBM()
+# print(tester.getRandBits(256))
