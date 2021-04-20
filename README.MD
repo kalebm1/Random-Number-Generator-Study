@@ -71,3 +71,16 @@ methods which are laid out as follows:
 ```
 
 More algorithms to come. Enjoy!
+
+## Credit:
+
+    Most of these algorithms were adapted from other languages or pseudo code. Here are a few developers who code has allowed me to create this repository. If you would like me to take down any code, please contact me.
+
+    Blum-Blum-Shub: OverStruck
+    GitHub: https://github.com/OverStruck/blum-blum-shub-prbg
+
+    Blum-Micali: andreigasparovici
+    GitHub: https://gist.github.com/andreigasparovici/7241fcafcfbde1edf07dad318d3fe040
+
+    Mersenne Twister: yinengy
+    GitHub: https://github.com/yinengy/Mersenne-Twister-in-Python
