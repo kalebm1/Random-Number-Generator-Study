@@ -12,6 +12,8 @@ these factors with popular Pseudorandom Algorithms to find the best algorithm we
 - [ ] Users amount of space on computer
 - [ ] Users battery life
 - [x] Users' System Memory Value (GB)
+- [ ] Random day in time - amount of rain fallen on that day.
+- [ ] Two rain drop falling - distance between two points.
 - [ ] MANY MORE TO COME.
 
 ### Time
